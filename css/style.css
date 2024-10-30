@@ -213,6 +213,44 @@ img {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .afficher-plus {
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+.hebergements-cards {
+    border: 1px solid blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    img {
+        height: 124px;
+        min-width: 228px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .card-content {
+        padding: 5px 15px;
+    }
+
+    .card-title,
+    .card-subtitle {
+        margin-bottom: 8px;
+    }
 }
 
 /****** Populaires ***********/
