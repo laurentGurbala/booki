@@ -185,6 +185,18 @@ img {
     }
 }
 
+/****** info ***********/
+.info {
+    margin-bottom: 35px;
+
+    .fa-solid {
+        border: 1px solid var(--filter-border-color);
+        border-radius: 50px;
+        padding: 7px 10px;
+        margin-right: 10px;
+    }
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
