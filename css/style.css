@@ -70,6 +70,7 @@ img {
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 
     .header__logo {
         padding: 30px 50px 30px 0;
@@ -95,8 +96,57 @@ img {
     }
 }
 
+/****** Slogan ***********/
+.headline {
+    margin-bottom: 35px;
 
+    .headline__title {
+        margin-bottom: 10px;
+    }
+}
 
+/****** Form Rechercher ***********/
+.search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+
+    .search__icon {
+        background: var(--main-bg-color);
+        padding: 15px 18px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+        .fa-solid {
+            width: 14px;
+            height: 18px;
+            color: black;
+        }
+    }
+
+    .search__input {
+        width: 200px;
+        border: 1px solid var(--main-bg-color);
+        padding: 15px 24px;
+    }
+
+    .search__input::placeholder {
+        color: black;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .search__btn {
+        color: #fff;
+        background: var(--main-color);
+        font-weight: 700;
+        font-size: 18px;
+        border: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 13px 16px;
+    }
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
