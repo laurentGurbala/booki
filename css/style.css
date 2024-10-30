@@ -10,6 +10,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    --filter-border-color: #d9d9d9;
 }
 
 .fa-solid {
@@ -149,6 +150,38 @@ img {
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         padding: 13px 16px;
+    }
+}
+
+/****** Filtre ***********/
+.filter {
+    margin-bottom: 35px;
+
+    .list-filter {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .filter-item {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .filter-btn {
+        padding: 14px 19px;
+        border-radius: 25px;
+        border: 2px solid var(--filter-border-color);
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+
+        .fa-solid {
+            margin-right: 10px;
+        }
+    }
+
+    .filter-btn:hover {
+        background: var(--filter-bg-color);
     }
 }
 
