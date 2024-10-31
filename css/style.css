@@ -77,7 +77,7 @@ img {
     justify-content: space-between;
     margin-bottom: 30px;
 
-    .header__logo {
+    .header-logo {
         padding: 30px 50px 30px 0;
 
         img {
@@ -90,12 +90,12 @@ img {
         gap: 68px;
     }
 
-    .nav__link {
+    .nav-link {
         padding-top: 16px;
         border-top: 3px solid transparent;
     }
 
-    .nav__link--active {
+    .nav-link--active {
         color: var(--main-color);
         border-top: 3px solid var(--main-color);
     }
@@ -105,7 +105,7 @@ img {
 .headline {
     margin-bottom: 35px;
 
-    .headline__title {
+    .headline-title {
         margin-bottom: 10px;
     }
 }
@@ -116,7 +116,7 @@ img {
     align-items: center;
     margin-bottom: 35px;
 
-    .search__icon {
+    .search-icon {
         background: var(--main-bg-color);
         padding: 15px 18px;
         border-top-left-radius: 15px;
@@ -128,19 +128,19 @@ img {
         }
     }
 
-    .search__input {
+    .search-input {
         width: 200px;
         border: 1px solid var(--main-bg-color);
         padding: 15px 24px;
     }
 
-    .search__input::placeholder {
+    .search-input::placeholder {
         color: black;
         font-weight: 700;
         font-size: 18px;
     }
 
-    .search__btn {
+    .search-btn {
         color: #fff;
         background: var(--main-color);
         font-weight: 700;
